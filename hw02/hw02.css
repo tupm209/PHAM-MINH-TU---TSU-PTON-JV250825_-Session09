@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-wrap img {
+  width: 100vw;
+}
+
+.container .main-wrap {
+  height: 500vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+.container .main-wrap .main-item-1, .main-item-1 img {
+  width: 90%;
+}
+
+.container .main-wrap .main-item-2, .main-item-2 img {
+  width: 100%;
+}
+
+.footer-wrap, img {
+  width: 100%;
+}
